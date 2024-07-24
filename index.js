@@ -12,9 +12,9 @@ while (flag) {
   ) {
     alert("Invalid input Enter a number between 1 and 10");
   } else if (userNumber < randomNumber) {
-    alert("too low try again");
+    alert("Too low try again");
   } else if (userNumber > randomNumber) {
-    alert("too high try again");
+    alert("Too high try again");
   } else {
     alert("You win!");
     flag = false;
